@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home{
+  margin-top: 30px;
+}
+
+  .home1{
+    background-color:black;
+    padding: 5px;
+    border-radius: 16px;
+ 
+  }
+  .home2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+  }
+ 
+  .home-intro{
+    font-family: sans-serif;
+    font-weight:800;
+    font-size:28px;
+    text-align: left;
+    color: black;
+  }
+
+
+  .home-name{
+    font-family: sans-serif;
+    font-weight:900;
+    font-size:60px;
+    text-align: left;
+    color: black;
+    margin-top: 10px;
+
+
+  }
+  .home-typewriter{
+    font-family: sans-serif;
+    font-weight:800;
+    font-size:40px;
+    text-align: left;
+    color: black;
+    margin-top: 10px;
+  }
+
+  @media only screen and (max-width: 430px){
+    .home-name{
+      font-size:40px;
+    }
+    .home-typewriter{
+      font-size: 32px;
+    }
+
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.works-heading{
+    font-size: 48px;
+    margin: auto;
+    color: black;
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+.work-container{
+    height: 700px;
+    background-color:black ;
+    padding: 5px;
+    margin: auto;
+    border-radius:16px;
+    margin-bottom:100px;
+}
+
+.work-inner-container{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+.p-image{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+.p-image img{
+    width: 450px;
+    height: 250px;
+    margin-top: 30px;
+    /* width: 450px;
+    height: 338px; */
+    /* border: 1px solid red; */
+
+}
+
+.p-buttons{
+    /* width: 100%; */
+    /* max-width: 350px; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+
+}
+.p-buttons button{
+    height: 40px;
+    width: 130px;
+    margin:10px;
+    border: 3px solid black;
+    background-color: rgb(52, 49, 49);
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 20px;
+    
+}
+
+.p-name{
+    font-size: 24px;
+    color:black;
+    font-weight: 800;
+    /* border: 1px solid red;  */
+}
+
+.p-description{
+    margin: 20px 0 20px 0;
+    /* border: 1px solid red; */
+}
+
+.p-stack{
+    
+    border-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+
+.bebody{
+    width: 450px;
+    height: 338px;
+}
