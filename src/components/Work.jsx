@@ -6,6 +6,7 @@ import "../styles/Work.css";
 import bebody from "../images/bebody.png";
 import myntra from "../images/myntra.png";
 import fraazo from "../images/fraazo.png";
+import timely from "../images/timely.png";
 export const Work = () => {
   const [padding, setpadding] = useState("");
 
@@ -29,7 +30,7 @@ export const Work = () => {
               <div className="work-inner-container">
                 <h3 className="p-name">TIMELY APP</h3>
                 <div className="p-image">
-                  <img src={fraazo} alt="" />
+                  <img src={timely} alt="" />
                 </div>
 
                 <p className="p-description">
@@ -37,15 +38,13 @@ export const Work = () => {
                   talk about timelyapp.com clone, a website that we built up for
                   our Unit-5 construct week submission. Website development is
                   fun when all the team members collaborate and make a good
-                  website. Timely's time tracking software helps teams stay
-                  connected and report accurately across client, project and
-                  employee hours. It's a centralized automated system that makes
+                  website.It's a centralized automated system that makes
                   it easy for teams to work on all aspects of their programs and
                   projects to ensure efficiency and productivity.
                 </p>
                 <p className="p-stack">
                   {" "}
-                  React | Redux Thunk | CSS | CHAKRA UI |EXPRESS | MONGODB
+                  React | Redux Thunk | Css | Chakra UI | Express | MongoDB
                 </p>
                 <div className="p-buttons">
                   <a
@@ -72,6 +71,9 @@ export const Work = () => {
                 </div>
               </div>
             </Box>
+            </Grid>
+
+          <Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}>
             <Box className="work-container" maxWidth="600px">
               <div className="work-inner-container">
                 <h3 className="p-name">FRAAZO</h3>
@@ -118,6 +120,7 @@ export const Work = () => {
             </Box>
           </Grid>
 
+<Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}>
           <Box className="work-container" maxWidth="600px">
             <div className="work-inner-container">
               <h3 className="p-name"> BEBODYWISE</h3>
@@ -158,7 +161,9 @@ export const Work = () => {
               </div>
             </div>
           </Box>
+          </Grid>
 
+<Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}>
           <Box className="work-container" maxWidth="600px">
             <div className="work-inner-container">
               <h3 className="p-name">MYNTRA CLONE</h3>
@@ -198,6 +203,9 @@ export const Work = () => {
               </div>
             </div>
           </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}></Grid>
         </Grid>
       </Grid>
     </div>
