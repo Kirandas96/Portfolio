@@ -49,21 +49,21 @@ export const Work = () => {
                 </p>
                 <div className="p-buttons">
                   <a
-                    href="https://extraordinary-blancmange-42c3dc.netlify.app/"
+                    href="https://spareshub-clone.netlify.app/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
                     <button>LIVE</button>
                   </a>
                   <a
-                    href="https://github.com/Kirandas96/Fraazo"
+                    href="https://github.com/Kirandas96/Timelyapp-Clone"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
                     <button>CODE</button>
                   </a>
                   <a
-                    href="https://medium.com/@amankatiyar0002016/fraazo-d0e53e1d1aaa"
+                    href="https://github.com/Kirandas96/Timelyapp-Clone"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
@@ -93,14 +93,14 @@ export const Work = () => {
                 </p>
                 <div className="p-buttons">
                   <a
-                    href="https://spareshub-clone.netlify.app/"
+                    href="https://extraordinary-blancmange-42c3dc.netlify.app/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
                     <button>LIVE</button>
                   </a>
                   <a
-                    href=""
+                    href="https://github.com/Kirandas96/Fraazo"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
