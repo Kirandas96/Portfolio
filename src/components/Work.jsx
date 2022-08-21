@@ -63,7 +63,7 @@ export const Work = () => {
                 </div>
                 <div className="p-buttons">
                   <a
-                    href="https://spareshub-clone.netlify.app/"
+                    href="https://timely-app-clone.netlify.app/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
@@ -206,7 +206,7 @@ export const Work = () => {
                 </div>
                 <div className="p-buttons">
                   <a
-                    href="https://cranky-knuth-b30b90.netlify.app/"
+                    href="https://earnest-kulfi-942813.netlify.app/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
