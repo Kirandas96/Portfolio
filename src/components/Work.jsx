@@ -7,6 +7,18 @@ import bebody from "../images/bebody.png";
 import myntra from "../images/myntra.png";
 import fraazo from "../images/fraazo.png";
 import timely from "../images/timely.png";
+import react from "../images/react.svg";
+import redux from "../images/redux.svg";
+import node from "../images/node.svg";
+import express from "../images/express.svg";
+import mongo from "../images/mongo.svg";
+import js from "../images/js.svg";
+import html from "../images/html.svg";
+import css from "../images/css.svg";
+import mui from "../images/mui.svg";
+import typescript from "../images/typescript.svg";
+
+
 export const Work = () => {
   const [padding, setpadding] = useState("");
 
@@ -34,18 +46,21 @@ export const Work = () => {
                 </div>
 
                 <p className="p-description">
-                  TimelyApp.com Clone Project In this blog post, I’m going to
-                  talk about timelyapp.com clone, a website that we built up for
-                  our Unit-5 construct week submission. Website development is
-                  fun when all the team members collaborate and make a good
-                  website.It's a centralized automated system that makes
+                  It's a centralized automated system that makes
                   it easy for teams to work on all aspects of their programs and
                   projects to ensure efficiency and productivity.
                 </p>
-                <p className="p-stack">
+                <div className="p-stack">
                   {" "}
-                  React | Redux Thunk | Css | Chakra UI | Express | MongoDB
-                </p>
+                  <img src={react} alt="" />
+                  <img src={redux} alt="" />
+                  <img src={express} alt="" />
+                  <img src={node} alt="" />
+                  <img src={mongo} alt="" />
+                  <img src={js} alt="" />
+                  <img src={typescript} alt="" />
+                  {/* React | Redux Thunk | Css | Chakra UI | Express | MongoDB */}
+                </div>
                 <div className="p-buttons">
                   <a
                     href="https://spareshub-clone.netlify.app/"
@@ -71,7 +86,7 @@ export const Work = () => {
                 </div>
               </div>
             </Box>
-            </Grid>
+          </Grid>
 
           <Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}>
             <Box className="work-container" maxWidth="600px">
@@ -82,17 +97,18 @@ export const Work = () => {
                 </div>
 
                 <p className="p-description">
-                  This time as a part of Curriculum’s module 4 project .we were
-                  given a task to develop clone of a website named Fraazo
-                  (www.Fraazo.com).Fraazo was launched in 2016 as a fresh
-                  produce store in the posh locality of Powai with a clear
-                  vision of serving the customers with farm-fresh groceries
-                  delivered at the doorstep.
+                  Fraazo is the best online store to buy fresh fruits and vegetables, herbs and dry fruits. Buy daily grocery products, beverages, kitchen staples, pulses from fraazo.
                 </p>
-                <p className="p-stack">
+                <div className="p-stack">
                   {" "}
-                  React | Redux Thunk | Javascript | HTML | CSS | MUI
-                </p>
+                  <img src={react} alt="" />
+                  <img src={redux} alt="" />
+                  <img src={js} alt="" />
+                  <img src={html} alt="" />
+                  <img src={css} alt="" />
+                  <img src={mui} alt="" />
+                  {/* React | Redux Thunk | Javascript | HTML | CSS | MUI */}
+                </div>
                 <div className="p-buttons">
                   <a
                     href="https://extraordinary-blancmange-42c3dc.netlify.app/"
@@ -120,89 +136,99 @@ export const Work = () => {
             </Box>
           </Grid>
 
-<Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}>
-          <Box className="work-container" maxWidth="600px">
-            <div className="work-inner-container">
-              <h3 className="p-name"> BEBODYWISE</h3>
-              <div className="p-image">
-                <img src={bebody} alt="" />
-              </div>
+          <Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}>
+            <Box className="work-container" maxWidth="600px">
+              <div className="work-inner-container">
+                <h3 className="p-name"> BEBODYWISE</h3>
+                <div className="p-image">
+                  <img src={bebody} alt="" />
+                </div>
 
-              <p className="p-description">
-                We worked on cloning a BODYWISE website. This website is mainly
-                for women, where they provide women health-related products and
-                services. in this project, we used HTML, CSS, JAVASCRIPT which
-                we have merged by using GITHUB. Our project is dynamic and
-                responsive in work.
-              </p>
-              <p className="p-stack"> Javascript | HTML | CSS</p>
-              <div className="p-buttons">
-                <a
-                  href="https://gallant-jackson-573754.netlify.app/index.html"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <button>LIVE</button>
-                </a>
-                <a
-                  href="https://github.com/Kirandas96/BeBodyWise"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <button>CODE</button>
-                </a>
-                <a
-                  href="https://medium.com/@narayanchatalwar/be-bodywise-website-clone-49ef1ab65156"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <button>DETAILS</button>
-                </a>
+                <p className="p-description">
+                  This website is mainly
+                  for women, where they provide women health-related products and
+                  services. in this project, we used HTML, CSS, JAVASCRIPT which
+                  we have merged by using GITHUB. Our project is dynamic and
+                  responsive in work.
+                </p>
+                <div className="p-stack">
+                  <img src={js} alt="" />
+                  <img src={html} alt="" />
+                  <img src={css} alt="" />
+                  {/* Javascript | HTML | CSS */}
+                </div>
+                <div className="p-buttons">
+                  <a
+                    href="https://gallant-jackson-573754.netlify.app/index.html"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <button>LIVE</button>
+                  </a>
+                  <a
+                    href="https://github.com/Kirandas96/BeBodyWise"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <button>CODE</button>
+                  </a>
+                  <a
+                    href="https://medium.com/@narayanchatalwar/be-bodywise-website-clone-49ef1ab65156"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <button>DETAILS</button>
+                  </a>
+                </div>
               </div>
-            </div>
-          </Box>
+            </Box>
           </Grid>
 
-<Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}>
-          <Box className="work-container" maxWidth="600px">
-            <div className="work-inner-container">
-              <h3 className="p-name">MYNTRA CLONE</h3>
-              <div className="p-image">
-                <img src={myntra} alt="" />
-              </div>
+          <Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}>
+            <Box className="work-container" maxWidth="600px">
+              <div className="work-inner-container">
+                <h3 className="p-name">MYNTRA CLONE</h3>
+                <div className="p-image">
+                  <img src={myntra} alt="" />
+                </div>
 
-              <p className="p-description">
-                Our project is typical e-commerce website clone. The flow of our
-                website starts from a landing page then to a product page that
-                leads to a description page and wishlist page which takes to
-                cart and payment page
-              </p>
-              <p className="p-stack"> Javascript | HTML | CSS</p>
-              <div className="p-buttons">
-                <a
-                  href="https://cranky-knuth-b30b90.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <button>LIVE</button>
-                </a>
-                <a
-                  href="https://github.com/Kirandas96/Myntra-Clone"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <button>CODE</button>
-                </a>
-                <a
-                  href="https://medium.com/@swainrakeshkumar60/myntra-online-fashion-store-97352e428d6b"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <button>DETAILS</button>
-                </a>
+                <p className="p-description">
+                  Our project is typical e-commerce website clone. The flow of our
+                  website starts from a landing page then to a product page that
+                  leads to a description page and wishlist page which takes to
+                  cart and payment page
+                </p>
+                <div className="p-stack">
+                  <img src={js} alt="" />
+                  <img src={html} alt="" />
+                  <img src={css} alt="" />
+                  {/* Javascript | HTML | CSS */}
+                </div>
+                <div className="p-buttons">
+                  <a
+                    href="https://cranky-knuth-b30b90.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <button>LIVE</button>
+                  </a>
+                  <a
+                    href="https://github.com/Kirandas96/Myntra-Clone"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <button>CODE</button>
+                  </a>
+                  <a
+                    href="https://medium.com/@swainrakeshkumar60/myntra-online-fashion-store-97352e428d6b"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <button>DETAILS</button>
+                  </a>
+                </div>
               </div>
-            </div>
-          </Box>
+            </Box>
           </Grid>
 
           <Grid item xs={12} sm={12} md={6} lg={6} sx={{ pt: "10px" }}></Grid>
