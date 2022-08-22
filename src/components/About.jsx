@@ -3,7 +3,7 @@ import { Grid,Container,useTheme,useMediaQuery, Box} from "@mui/material"
 import { useState } from "react"
 import { useEffect } from "react"
 import '../styles/About.css'
-import dp from '../images/dp.jpeg'
+import dp from '../images/dp.jpg'
 
 
 
