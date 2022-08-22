@@ -48,7 +48,7 @@ export const About=()=>{
                     </div>
                     
                 </Box>
-                <button className="resume" ><a href="https://docs.google.com/document/d/1-DRsYKxPNKZMzOrioEocq28ehlOy2-O02zY-vQuIKEY/edit?usp=sharing" target="_blank" rel="noreferrer noopener">RESUME</a></button>
+                <button className="resume" ><a href="https://drive.google.com/file/d/1Ei2SVdsfoEexM40Oy5Bxb_8ddmift7_Y/view?usp=sharing" target="_blank" rel="noreferrer noopener">RESUME</a></button>
                 </Grid>
             </Grid>
             </div>
