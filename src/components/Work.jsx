@@ -17,7 +17,7 @@ import html from "../images/html.svg";
 import css from "../images/css.svg";
 import mui from "../images/mui.svg";
 import typescript from "../images/typescript.svg";
-
+import bootstrap from "../images/bootstrap.svg";
 
 export const Work = () => {
   const [padding, setpadding] = useState("");
@@ -202,6 +202,7 @@ export const Work = () => {
                   <img src={js} alt="" />
                   <img src={html} alt="" />
                   <img src={css} alt="" />
+                  <img src={bootstrap} alt="" />
                   {/* Javascript | HTML | CSS */}
                 </div>
                 <div className="p-buttons">
